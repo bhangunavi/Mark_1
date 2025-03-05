@@ -1,0 +1,48 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Full Screen Centered Container */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #1a1a2e;
+    border: 5px solid;
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Hover effect on the body */
+body:hover {
+    background: #45656f;
+    color: antiquewhite;
+}
+
+/* Centered Link Button */
+.profile-link {
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #2196f3;
+    border: 3px solid #ffffff;
+    border-radius: 40px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+/* Hover effect */
+.profile-link:hover {
+    background: #ffffff;
+    color: #2196f3;
+    border-color: #2196f3;
+    box-shadow: 0 0 20px #2196f3, 0 0 40px #2196f3, 0 0 60px #2196f3;
+    transform: scale(1.1);
+}
